@@ -9,7 +9,7 @@ W="\e[37m"
 N="\e[0m" 
 
 USERID=$(id -u)
-if( $USERID -ne 0 ) 
+if[ $USERID -ne 0 ]
 then
 echo -e "$R Please run using root user $N"
 fi
