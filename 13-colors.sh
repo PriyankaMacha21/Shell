@@ -12,4 +12,6 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
 echo -e "$R Please run using root user $N"
+else
+echo -e "$G You are successfully running using root user $N"
 fi
